@@ -1,2 +1,2 @@
-document.body.innerHTML = '<p>Hello world</p>'
+document.body.innerHTML = '<p>Hello world</p>';
 console.log("Hello world");
