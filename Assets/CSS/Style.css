@@ -1,3 +1,30 @@
+#header
+{
+    padding: 0;
+    margin-bottom: 0;
+}
+
+.intro
+{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background: url("C:/Users/Leadj/Desktop/УП WEB/Day 8/AboutMe/Assets/Images/me.jpg") no-repeat center;
+}
+
+.Title
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+
 .col-md-4
 {
     text-align: center;
