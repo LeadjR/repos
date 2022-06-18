@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="Assets/CSS/Style.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <script src="Assets/JS/JavaScript.js"></script>
+    <script src="Assets/JS/JavaScript.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
     <title>About Me</title>
 </head>
@@ -22,12 +23,60 @@
         <div class="intro">
             <div class="Title">
                 <div class="SomeText">
-                    <p><h1 class="TitleText" style="font-size: 100px;">Дмитрий Попов</h1></p>
-                    <p><h2 class="SubTitleText">Junior Developer</h2></p>
+                    <h1 class="TitleText" style="font-size: 100px;">Дмитрий Попов</h1>
+                    <h2 class="SubTitleText">Junior Developer</h2>
                 </div>
             </div>
         </div>
     </div>
-    
+    <div class="container">
+        <div class="info">
+            <div class="tabs3d">
+                <div class="tabs3d-control"></div>
+                <div class="tabs3d-stage">
+                    <div class="spinner spinner-left">
+                        <div class="spinner-face" data-bg="#2b4356" data-menu="Заголовок">
+                            <div class="content">
+                                <div class="content-left" style="background-image: url(Assets/Images/Pic2.png);">
+                                    <div class="content-title">
+                                        <div>Дмитрий Попов</div>
+                                        <p>Молодой разработчик</p>
+                                    </div>
+                                </div>
+                                <div class="content-right">
+                                    <div class="content-main">
+                                        <p></p>
+                                        <p class="content-autor">Автор</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>				
+                        <div class="spinner-face" data-bg="#353f49" data-menu="Заголовок">
+                            <div class="content">
+                                <div class="content-left" style="background-image: url(Assets/Images/Pic1.jpg);">
+                                    <div class="content-title">
+                                        <div>Заголовок</div>
+                                        <p>Подзаголовок</p>
+                                    </div>
+                                </div>
+                                <div class="content-right">
+                                    <div class="content-main">
+                                        <p>Текст</p>
+                                        <p class="content-autor">Автор</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>			
+                    </div>
+                </div>
+            </div>
+            
+            <!--  Предзагрузка картинок  -->
+            <div style="height: 0; width: 0; overflow: hidden">
+                <img src="C:\Users\Leadj\Desktop\УП WEB\Day 8\AboutMe\Assets\Images\Pic1.jpg">
+                <img src="C:\Users\Leadj\Desktop\УП WEB\Day 8\AboutMe\Assets\Images\Pic2.png">
+            </div>	    
+        </div>
+    </div>
 </body>
 </html>
