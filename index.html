@@ -15,15 +15,32 @@
     <title>About Me</title>
 </head>
 <body>
-    <div class="container" id="header">
-        <div class="row">
-            <a href="#" class="col-md-4">Главная</a>
-            <a href="#" class="col-md-4">GitHub</a>
-            <a href="#" class="col-md-4">Обо мне</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Сайт-резюме</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#Main">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#info">Обо мне</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Git hub</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Контакты</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
+      </nav>
     <div class="container">
-        <div class="intro">
+        <div class="intro" id="Main">
             <div class="Title">
                 <div class="SomeText">
                     <h1 class="TitleText" style="font-size: 100px;">Дмитрий Попов</h1>
@@ -33,12 +50,12 @@
         </div>
     </div>
     <div class="container">
-        <div class="info">
+        <div class="info" id="info">
             <div class="tabs3d">
                 <div class="tabs3d-control"></div>
                 <div class="tabs3d-stage">
                     <div class="spinner spinner-left">
-                        <div class="spinner-face" data-bg="#2b4356" data-menu="Заголовок">
+                        <div class="spinner-face" data-bg="#2b4356" data-menu="Обо мне">
                             <div class="content">
                                 <div class="content-left" style="background-image: url(Assets/Images/Pic2.png);">
                                     <div class="content-title">
@@ -58,7 +75,7 @@
                                 </div>
                             </div>
                         </div>				
-                        <div class="spinner-face" data-bg="#353f49" data-menu="Заголовок">
+                        <div class="spinner-face" data-bg="#353f49" data-menu="Чем занимаюсь">
                             <div class="content">
                                 <div class="content-left" style="background-image: url(Assets/Images/Pic1.jpg);">
                                     <div class="content-title">
@@ -113,6 +130,19 @@
                                 <span class="blog-slider__date">Мои проекты</span>
                                 <div class="blog-slider__title">The sin of anger</div>
                                 <p>The Sin of anger - игра в жанре платформер. Разработан на языке C# на игровом движке Unity. Этот проект я разрабатывал в качестве ознакомления с Unity.</p>
+                                <!-- <div class="blog-slider__button-wrapper">
+                                    <a href="#" class="blog-slider__button">Читать далее</a>
+                                </div> -->
+                            </div>
+                        </div>	
+                        <div class="blog-slider__item swiper-slide">
+                            <div class="blog-slider__img">
+                                <img src="Assets/Images/WHM.png">
+                            </div>
+                            <div class="blog-slider__content">
+                                <span class="blog-slider__date">Мои проекты</span>
+                                <div class="blog-slider__title">We Hate Monitors</div>
+                                <p>We Hate Monitors - сайт, разработанный на HTML, CSS, JS с использованием JQuery. Был разработан в качестве проекта для учебной практики.</p>
                                 <!-- <div class="blog-slider__button-wrapper">
                                     <a href="#" class="blog-slider__button">Читать далее</a>
                                 </div> -->

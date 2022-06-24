@@ -34,21 +34,6 @@
     margin: 0;
 }
 
-.col-md-4
-{
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    text-transform: uppercase;
-    font-size: 18px;
-    transition: color .2s linear;
-}
-
-.col-md-4:hover
-{
-    color: orange;
-}
-
 
 .js-transitions-disabled * {
 	transition: none !important;
